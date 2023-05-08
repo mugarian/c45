@@ -14,4 +14,4 @@ use App\Http\Controllers\BahanController;
 |
 */
 
-Route::get('/', [BahanController::class, 'index']);
+Route::get('/', [BahanController::class, 'decisionTree']);
